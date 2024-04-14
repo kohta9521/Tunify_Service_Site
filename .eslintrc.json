@@ -8,5 +8,9 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "extends": ["next/core-web-vitals", "prettier"]
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:storybook/recommended"
+  ]
 }
