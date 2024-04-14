@@ -1,10 +1,7 @@
-import Image from "next/image";
-import styles from "../styles/page.module.scss";
-
 export default function Home() {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className="w-full text-center p-3 mx-auto my-0">
+      <h1 className="text-3xl text-red-600">Top Site</h1>
     </div>
   );
 }
