@@ -1,33 +1,45 @@
-import React from 'react';
+import React from "react";
 
-type Props = {
-  outlined?: boolean;
-  size?: 'small' | 'middle';
-  children: React.ReactNode;
-  onClick?: () => void;
-};
+// tv
+import { VariantProps, tv } from "tailwind-variants";
 
-export const Button: React.FC<Props> = ({
-  outlined = false,
-  size = 'middle',
-  children,
-  onClick,
-}) => {
+const button = tv({
+  base: "font-medium bg-blue-500 text-white rounded-full active:opacity-80",
+  variants: {
+    color: {
+      primary: "bg-blue-500 text-white",
+      secondary: "bg-gray-500 text-white",
+      danger: "bg-red-500 text-white",
+    },
+    size: {
+      sm: "text-sm",
+      md: "text-base",
+      lg: "px-4 py-3 text-lg",
+    },
+  },
+  compoundVariants: [
+    {
+      size: ["sm", "md"],
+      class: "px-3 py-1",
+    },
+  ],
+  defaultVariants: {
+    size: "md",
+    color: "primary",
+  },
+});
+
+type ButtonProps = VariantProps<typeof button>;
+
+const Button = (props: ButtonProps) => {
   return (
     <button
       type="button"
-      className={`
-        rounded
-        ${size === 'middle' ? 'px-5 py-1' : 'px-3 py-1 text-sm'}
-        ${
-          outlined
-            ? 'border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
-            : 'border-none bg-blue-600 text-white hover:bg-blue-500'
-        }
-      `}
-      onClick={onClick}
+      className={button({ size: props.size, color: props.color })}
     >
-      {children}
+      Click me
     </button>
   );
 };
+
+export default Button;
