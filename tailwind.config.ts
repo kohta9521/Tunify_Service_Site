@@ -1,3 +1,4 @@
+import { withTV } from "tailwind-variants/dist/transformer.js";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
