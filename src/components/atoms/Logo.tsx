@@ -23,10 +23,10 @@ const Logo = ({
 }: LogoProps) => {
   const imagePath =
     color == "black"
-      ? "images/common/logo_black.png"
-      : "images/common/logo_white.png";
+      ? "/images/common/logo_black.png"
+      : "/images/common/logo_white.png";
   return;
-  <Link href={link} className={`${styels.link} ${styles[size]}`}>
+  <Link href={link} className={`${styles.link} ${styles[size]}`}>
     <Image className={styles.logo_image} />
   </Link>;
 };
