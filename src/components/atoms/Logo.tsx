@@ -27,7 +27,10 @@ const Logo = ({
       : "/images/common/logo_white.png";
   return;
   <Link href={link} className={`${styles.link} ${styles[size]}`}>
-    <Image className={styles.logo_image} />
+    <Image
+      className={styles.logo_image}
+      src="../../../public/images/common/logo_white.png"
+    />
   </Link>;
 };
 
