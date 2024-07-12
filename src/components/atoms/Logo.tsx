@@ -12,7 +12,6 @@ export type LogoProps = {
   id: string;
   link: string;
   size?: "xsmall" | "small" | "medium" | "large" | "xlarge";
-  color?: "black" | "white";
 };
 
 const Logo = ({
@@ -27,10 +26,7 @@ const Logo = ({
       : "/images/common/logo_white.png";
   return;
   <Link href={link} className={`${styles.link} ${styles[size]}`}>
-    <Image
-      className={styles.logo_image}
-      src="../../../public/images/common/logo_white.png"
-    />
+    sample
   </Link>;
 };
 

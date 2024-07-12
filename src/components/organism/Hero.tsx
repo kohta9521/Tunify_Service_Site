@@ -5,6 +5,7 @@ import styles from "./styles/Hero.module.scss";
 
 // components
 import Header from "./Header";
+import Logo from "../atoms/Logo";
 
 const Hero = () => {
   return (
