@@ -1,0 +1,26 @@
+.header {
+    width: 90%;
+    height: 100px;
+    
+  .leftBox {
+  }
+  .rightBox {
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    .leftBox {
+    }
+    .rightBox {
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    .leftBox {
+    }
+    .rightBox {
+    }
+  }
+}
