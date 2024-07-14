@@ -1,3 +1,4 @@
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -16,6 +17,13 @@
   --sub-color: rgb(185, 0, 178);
 
   // font-size
+  --xxsmall-font-size: 0.5rem;
+  --xsmall-font-size: 0.75rem;
+  --small-font-size: 0.875rem;
+  --medium-font-size: 1rem;
+  --large-font-size: 1.125rem;
+  --xlarge-font-size: 1.25rem;
+  --xxlarge-font-size: 1.5rem;
 }
 
 * {
@@ -33,6 +41,16 @@ body {
 body {
   // background-color: var(--main-black-color);
   // color: var(--main-font-color);
+  overflow: clip;
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  background-color: rgb(8, 8, 8);
+  background-image: url(../../public//images/common/dots.png);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: 100%;
 }
 
 a {
