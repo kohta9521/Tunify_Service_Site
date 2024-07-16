@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 :root {
   --max-width: 1100px;
@@ -26,6 +27,13 @@
   --xxlarge-font-size: 1.5rem;
   --xxxlarge-font-size: 1.875rem;
   --huge-font-size: 2.25rem;
+
+  // weight
+  --tiny-font-weight: 300;
+  --light-font-weight: 400;
+  --regular-font-weight: 500;
+  --bold-font-weight: 600;
+  --bolder-font-weight: 700;
 }
 
 * {
@@ -52,7 +60,7 @@ body {
   background-image: url(../../public//images/common/dots.png);
   background-repeat: repeat-y;
   background-position: center center;
-  background-size: 100%;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 a {

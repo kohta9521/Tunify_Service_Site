@@ -4,7 +4,7 @@ import { StoryObj, Meta } from "@storybook/react";
 import ListItem from "../ListItem";
 
 const meta: Meta = {
-  title: "Atoms/ListItem",
+  title: "Components/Atoms/ListItem",
   component: ListItem,
   tags: ["autodocs"],
   argTypes: {

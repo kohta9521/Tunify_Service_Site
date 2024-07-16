@@ -14,7 +14,13 @@ const Header = () => {
       <div className={styles.leftBox}>
         <Logo id={1} link="/" />
       </div>
-      <div className={styles.rightBox}></div>
+      <div className={styles.rightBox}>
+        <ListBox id={1}>
+          <ListItem id={1} text="Home" link="/" />
+          <ListItem id={1} text="About" link="/" />
+          <ListItem id={1} text="Service" link="/" />
+        </ListBox>
+      </div>
     </div>
   );
 };

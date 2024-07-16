@@ -12,6 +12,10 @@
     font-weight: 700;
     line-height: 90px;
     font-style: normal;
+    &:hover {
+      color: var(--main-color);
+      transition: all 0.3s;
+    }
   }
 }
 

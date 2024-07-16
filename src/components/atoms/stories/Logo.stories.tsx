@@ -4,7 +4,7 @@ import { StroyObj, Meta } from "@storybook/react";
 import Logo from "../Logo";
 
 const meta: Meta = {
-  title: "Atoms/Logo",
+  title: "Components/Atoms/Logo",
   component: Logo,
   tags: ["autodocs"],
   argTypes: {
