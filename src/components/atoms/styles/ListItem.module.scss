@@ -1,0 +1,22 @@
+.link {
+  display: block;
+  text-decoration: none;
+  width: auto;
+  height: 90px;
+  .text {
+    color: var(--main-font-color);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .link {
+    .text {
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .link {
+    .text {
+    }
+  }
+}

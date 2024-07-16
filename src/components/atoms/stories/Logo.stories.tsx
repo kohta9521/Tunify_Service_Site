@@ -14,12 +14,6 @@ const meta: Meta = {
       },
       description: "ロゴのid",
     },
-    text: {
-      control: {
-        type: "string",
-      },
-      description: "ロゴの文字",
-    },
     link: {
       control: {
         type: "string",
@@ -36,7 +30,6 @@ type LogoStory = StoryObj<typeof Logo>;
 export const Default: LogoStory = {
   args: {
     id: 1,
-    text: "TUNIFY",
     link: "/",
   },
 };
