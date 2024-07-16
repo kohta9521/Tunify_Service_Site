@@ -1,7 +1,10 @@
 .header {
-    width: 90%;
-    height: 100px;
-    
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .leftBox {
   }
   .rightBox {
