@@ -2,11 +2,15 @@
 
 .link {
   display: block;
+  width: auto;
+  height: 90px;
+  text-decoration: none;
   .text {
     color: white;
-    font-size: var(--xxlarge-font-size);
+    font-size: var(--huge-font-size);
     font-family: "Chakra Petch", sans-serif;
     font-weight: 700;
+    line-height: 90px;
     font-style: normal;
   }
 }
