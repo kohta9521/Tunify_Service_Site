@@ -1,0 +1,18 @@
+.text {
+  display: block;
+  width: auto;
+  font-size: var(--xxlarge-font-size);
+  font-weight: var(--regular-font-weight);
+  color: var(--main-font-color);
+  line-height: 52px;
+}
+
+@media screen and (max-width: 1280px) {
+  .text {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+  }
+}
