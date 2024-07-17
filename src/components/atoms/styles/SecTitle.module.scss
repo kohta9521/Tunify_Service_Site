@@ -1,0 +1,25 @@
+.box {
+  width: auto;
+  h1 {
+    display: inline-block;
+    font-size: var(--huge-font-size);
+    font-weight: var(--bold-font-weight);
+    color: var(--main-black-color);
+    background-color: var(--main-white-color);
+    line-height: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .box {
+    h1 {
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .box {
+    h1 {
+    }
+  }
+}
