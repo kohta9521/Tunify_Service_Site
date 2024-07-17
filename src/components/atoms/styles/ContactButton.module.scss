@@ -1,0 +1,37 @@
+.link {
+  display: block;
+  text-decoration: none;
+  background-color: var(--main-white-color);
+  width: 200px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  &:hover {
+    background-color: var(--sub-font-color);
+    transition: all 0.4s;
+  }
+  &:hover .text {
+    color: var(--main-color);
+    transition: all 0.4s;
+  }
+  .text {
+    color: var(--main-black-color);
+    font-size: var(--medium-font-size);
+    font-weight: var(--bold-font-weight);
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .link {
+    .text {
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .link {
+    .text {
+    }
+  }
+}

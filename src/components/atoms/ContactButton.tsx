@@ -8,17 +8,16 @@ import styles from "./styles/ContactButton.module.scss";
 
 // props
 export type ContactButtonProps = {
-    id: number;
-    link: string;
-}
-
+  id: number;
+  link: string;
+};
 
 const ContactButton = () => {
-    return (
-        <Link>
-            <p className={styles.text}>
+  return (
+    <Link href="/contact" className={styles.link}>
+      <p className={styles.text}>お問い合わせをする</p>
+    </Link>
+  );
+};
 
-            </p>
-        </Link>
-    )
-}
+export default ContactButton;

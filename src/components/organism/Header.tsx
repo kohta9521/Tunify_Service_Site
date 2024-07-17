@@ -7,6 +7,7 @@ import styles from "./styles/Header.module.scss";
 import Logo from "../atoms/Logo";
 import ListBox from "../molecules/ListBox";
 import ListItem from "../atoms/ListItem";
+import ContactButton from "../atoms/ContactButton";
 
 const Header = () => {
   return (
@@ -19,6 +20,7 @@ const Header = () => {
           <ListItem id={1} text="Home" link="/" />
           <ListItem id={1} text="About" link="/" />
           <ListItem id={1} text="Service" link="/" />
+          <ContactButton  />
         </ListBox>
       </div>
     </div>
