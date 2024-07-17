@@ -1,0 +1,23 @@
+.concept {
+  width: 100vw;
+  height: auto;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .concept {
+    .container {
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .concept {
+    .container {
+    }
+  }
+}

@@ -20,7 +20,7 @@ const Header = () => {
           <ListItem id={1} text="Home" link="/" />
           <ListItem id={1} text="About" link="/" />
           <ListItem id={1} text="Service" link="/" />
-          <ContactButton  />
+          <ContactButton />
         </ListBox>
       </div>
     </div>
