@@ -16,13 +16,13 @@ const Hero = () => {
       <div className={styles.imageBox}>
         <Image
           className={styles.image}
-          src="/images/top/hero.png"
+          src="/images/top/hero2.png"
           alt="hero"
           quality={100}
           width={1920}
           height={1080}
         />
-        <Link href="/diagnosis">
+        {/* <Link href="/diagnosis">
           <Image
             className={styles.circleImage}
             src="/images/top/circle.png"
@@ -31,7 +31,7 @@ const Hero = () => {
             width={400}
             height={400}
           />
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
