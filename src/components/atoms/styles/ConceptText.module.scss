@@ -1,0 +1,19 @@
+.textBox {
+  width: 580px;
+  height: auto;
+  p {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 3.1872;
+    color: var(--main-font-color);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .textBox {
+  }
+}
+@media screen and (max-width: 768px) {
+  .textBox {
+  }
+}

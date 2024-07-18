@@ -16,7 +16,7 @@ const Hero = () => {
       <div className={styles.imageBox}>
         <Image
           className={styles.image}
-          src="/images/top/hero.png"
+          src="/images/top/hero2.png"
           alt="hero"
           quality={100}
           width={1920}

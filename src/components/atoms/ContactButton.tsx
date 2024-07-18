@@ -1,10 +1,10 @@
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 // next
-import Link from "next/link";
 
 // scss
-import styles from "./styles/ContactButton.module.scss";
+import styles from './styles/ContactButton.module.scss';
 
 // props
 export type ContactButtonProps = {
@@ -14,7 +14,10 @@ export type ContactButtonProps = {
 
 const ContactButton = () => {
   return (
-    <Link href="/contact" className={styles.link}>
+    <Link
+      href='/contact'
+      className={styles.link}
+    >
       <p className={styles.text}>お問い合わせをする</p>
     </Link>
   );
