@@ -1,0 +1,30 @@
+.item {
+  text-decoration: none;
+  .itemText {
+  }
+}
+
+// props
+.black {
+  color: var(--main-black-color);
+}
+.white {
+  color: var(--main-white-color);
+}
+.pink {
+  color: var(--main-pink-color);
+}
+
+@media screen and (max-width: 1280px) {
+  .item {
+    .itemText {
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    .itemText {
+    }
+  }
+}
