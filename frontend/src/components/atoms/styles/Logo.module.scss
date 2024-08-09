@@ -1,23 +1,33 @@
 .logo {
+  width: auto;
+  height: auto;
+  max-height: 100px;
+  text-decoration: none;
   .logoText {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 }
 
 // props
 .snall {
+  font-size: var(--small-font-size);
 }
 .medium {
+  font-size: var(--default-font-size);
 }
 .large {
+  font-size: var(--xxlarge-font-size);
 }
 .white {
-
+  color: var(--main-white-color);
 }
 .black {
-
+  color: var(--main-black-color);
 }
 .pink {
-    
+  color: var(--main-pink-color);
 }
 
 @media screen and (max-width: 1280px) {
