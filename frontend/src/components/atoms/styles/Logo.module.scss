@@ -35,11 +35,31 @@
     .logoText {
     }
   }
+  // props
+  .snall {
+    font-size: var(--small-font-size);
+  }
+  .medium {
+    font-size: var(--default-font-size);
+  }
+  .large {
+    font-size: var(--xlarge-font-size);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .logo {
     .logoText {
     }
+  }
+  // props
+  .snall {
+    font-size: var(--small-font-size);
+  }
+  .medium {
+    font-size: var(--default-font-size);
+  }
+  .large {
+    font-size: var(--large-font-size);
   }
 }
