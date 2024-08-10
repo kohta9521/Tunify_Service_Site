@@ -1,6 +1,10 @@
 .item {
   text-decoration: none;
+  margin-right: 35px;
   .itemText {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: 300;
   }
 }
 

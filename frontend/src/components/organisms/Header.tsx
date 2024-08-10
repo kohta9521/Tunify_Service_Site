@@ -16,7 +16,7 @@ const Header = ({ id, children }: HeaderProps) => {
   return (
     <div className={styles.header} key={id}>
       <div className={styles.leftBox}>
-        <Logo id="home" size="large" color="pink" />
+        <Logo id="home" size="large" color="white" />
       </div>
       <div className={styles.rightBox}>{children}</div>
     </div>
