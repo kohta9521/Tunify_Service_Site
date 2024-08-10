@@ -1,0 +1,46 @@
+.item {
+  display: block;
+  width: auto;
+  height: 50px;
+  padding: 10px 30px;
+  margin-right: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  .text {
+    font-size: var(--small-font-size);
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+// props
+.black {
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
+}
+.white {
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
+}
+.pink {
+  background-color: var(--main-pink-color);
+  color: var(--main-white-color);
+}
+.none {
+  background-color: transparent;
+  color: var(--main-white-color);
+}
+
+@media screen and (max-width: 1280px) {
+  .item {
+    .text {
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    .text {
+    }
+  }
+}
