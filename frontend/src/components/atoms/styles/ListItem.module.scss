@@ -1,10 +1,15 @@
 .item {
   text-decoration: none;
-  margin-right: 35px;
+  padding: 0px 50px 0px 30px;
+  max-width: 200px;
+  height: 40px;
+  border-left: 1px solid var(--main-white-color);
+  border-right: 1px solid var(--main-white-color);
   .itemText {
     text-decoration: none;
     font-size: var(--small-font-size);
     font-weight: 300;
+    line-height: 40px;
   }
 }
 

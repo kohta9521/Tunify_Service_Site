@@ -1,15 +1,17 @@
 .header {
-  width: 93%;
-  height: 100px;
+  width: 100%;
+  height: 40px;
   margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--main-white-color);
   .leftBox {
-    line-height: 100px;
+    line-height: 24px;
   }
   .rightBox {
     height: auto;
-    line-height: 100px;
+    line-height: 24px;
   }
 }
 

@@ -6,7 +6,7 @@ import styles from "../styles/page.module.scss";
 import Header from "@/components/organisms/Header";
 import HeaderList from "@/components/molecules/HeaderList";
 import ListItem from "@/components/atoms/ListItem";
-import ListBoxItem from "@/components/atoms/ListBoxItem";
+import HamburgerBtn from "@/components/atoms/HamburgerBtn";
 
 export default function Home() {
   return (
@@ -17,8 +17,7 @@ export default function Home() {
           <ListItem id="headerItem1" link="/" text="About" color="white" />
           <ListItem id="headerItem1" link="/" text="service" color="white" />
           <ListItem id="headerItem1" link="/" text="Company" color="white" />
-          <ListBoxItem id="headerItem1" link="/" text="Login" color="pink" />
-          <ListBoxItem id="headerItem1" link="/" text="Login" color="pink" />
+          <HamburgerBtn />
         </HeaderList>
       </Header>
     </main>
