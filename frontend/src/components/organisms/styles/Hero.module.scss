@@ -1,0 +1,48 @@
+.hero {
+  width: 100vw;
+  height: 120vh;
+  padding-top: 40px;
+  border-bottom: 1px solid var(--main-white-color);
+  .heroTop {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    .leftBox {
+      width: calc(100% - 80px);
+      border-right: 1px solid var(--main-white-color);
+      .top {
+        display: flex;
+        height: 350px;
+        border-bottom: 1px solid var(--main-white-color);
+        .titleBox {
+          width: calc(100% - 340px);
+          border-right: 1px solid var(--main-white-color);
+        }
+        .descBox {
+          width: 350px;
+          height: 100%;
+        }
+      }
+      .bottom {
+        height: 140px;
+        border-bottom: 1px solid var(--main-white-color);
+      }
+    }
+    .rightBox {
+      width: 80px;
+      height: 100%;
+      border-bottom: 1px solid var(--main-white-color);
+    }
+  }
+  .heroBottom {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -8,7 +8,17 @@ import styles from "./styles/Hero.module.scss";
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <div className={styles.container}></div>
+      <div className={styles.heroTop}>
+        <div className={styles.leftBox}>
+          <div className={styles.top}>
+            <div className={styles.titleBox}></div>
+            <div className={styles.descBox}></div>
+          </div>
+          <div className={styles.bottom}></div>
+        </div>
+        <div className={styles.rightBox}></div>
+      </div>
+      <div className={styles.heroBottom}></div>
     </div>
   );
 };
