@@ -17,14 +17,24 @@
         border-bottom: 1px solid var(--main-white-color);
         .titleBox {
           width: calc(100% - 340px);
+          padding: 140px 0px 0px 50px;
           border-right: 1px solid var(--main-white-color);
         }
         .descBox {
+          position: relative;
           width: 350px;
           height: 100%;
+          padding: 110px 60px;
+          .descText {
+            display: block;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 44px;
+          }
         }
       }
       .bottom {
+        position: relative;
         height: 140px;
         border-bottom: 1px solid var(--main-white-color);
       }
@@ -38,6 +48,23 @@
   .heroBottom {
     width: 100%;
     height: 100%;
+    display: flex;
+    .leftImage {
+      width: 50%;
+      height: 100%;
+      .image {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .rightImage {
+      width: 50%;
+      height: 100%;
+      .image {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }
 
