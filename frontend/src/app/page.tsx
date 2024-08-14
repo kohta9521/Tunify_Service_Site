@@ -8,6 +8,7 @@ import HeaderList from "@/components/molecules/HeaderList";
 import ListItem from "@/components/atoms/ListItem";
 import HamburgerBtn from "@/components/atoms/HamburgerBtn";
 import Hero from "@/components/organisms/Hero";
+import About from "@/components/organisms/About";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         </HeaderList>
       </Header>
       <Hero />
+      <About />
     </main>
   );
 }

@@ -13,11 +13,22 @@ import { IoMdArrowForward } from "react-icons/io";
 export type ViewMoreBntProps = {
   id: string;
   link: string;
+  size?: "small" | "medium" | "large";
+  color?: "black" | "white" | "pink";
 };
 
-const ViewMoreBtn = ({ id, link }: ViewMoreBntProps) => {
+const ViewMoreBtn = ({
+  id,
+  link,
+  size = "medium",
+  color = "white",
+}: ViewMoreBntProps) => {
   return (
-    <Link className={styles.linkBox} key={id} href={link}>
+    <Link
+      className={`${styles.linkBox} ${styles[size]} ${styles[color]}`}
+      key={id}
+      href={link}
+    >
       <IoMdArrowForward className={styles.icon} />
     </Link>
   );
