@@ -1,0 +1,26 @@
+.list {
+  width: 30px;
+  height: auto;
+  padding: 40px 0px;
+  .text {
+    width: auto;
+    transform: rotate(90deg);
+  }
+  .linkBox {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: var(--main-white-color);
+    .icon {
+      color: var(--main-black-color);
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .list {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+}

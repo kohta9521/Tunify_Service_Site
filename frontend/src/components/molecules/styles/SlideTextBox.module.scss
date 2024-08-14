@@ -1,0 +1,36 @@
+.box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 460px;
+  height: 25px;
+  background-color: var(--main-white-color);
+  overflow: hidden;
+  .slider {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide 20s linear infinite;
+  }
+  .text {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-right: 100%;
+    color: var(--main-black-color);
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(20%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .box {
+    display: none;
+  }
+}

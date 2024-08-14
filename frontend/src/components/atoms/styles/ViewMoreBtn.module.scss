@@ -1,0 +1,33 @@
+.linkBox {
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-white-color);
+  .icon {
+    padding-top: 12px;
+    font-size: 25px;
+    margin: 0 auto;
+    color: var(--main-black-color);
+  }
+}
+
+// props
+.small {
+}
+.medium {
+}
+.large {
+}
+.black {
+}
+.white {
+}
+.pink {
+}
+
+@media screen and (max-width: 1280px) {
+  .linkBox {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+}
