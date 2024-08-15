@@ -43,24 +43,13 @@ const Hero = () => {
         </div>
       </div>
       <div className={styles.heroBottom}>
-        <div className={styles.leftImage}>
-          <Image
-            className={styles.image}
-            src="/images/hero1.jpg"
-            width={1000}
-            height={700}
-            alt="hero"
-          />
-        </div>
-        <div className={styles.rightImage}>
-          <Image
-            className={styles.image}
-            src="/images/hero2.jpg"
-            width={1000}
-            height={700}
-            alt="hero"
-          />
-        </div>
+        <Image
+          className={styles.image}
+          src="/images/hero.jpeg"
+          width={1000}
+          height={700}
+          alt="hero"
+        />
       </div>
     </div>
   );
