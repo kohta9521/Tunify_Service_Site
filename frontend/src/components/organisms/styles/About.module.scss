@@ -1,7 +1,6 @@
 .about {
   width: 100vw;
   height: 500px;
-  border: 1px solid var(--main-white-color);
   .container {
     display: flex;
     width: 100%;
@@ -10,8 +9,8 @@
       width: 50%;
       height: 500px;
       padding-top: 130px;
-      padding-left: 70px;
-      border-right: 1px solid var(--main-white-color);
+      padding-left: 90px;
+      border-right: 0.1px solid var(--main-white-color);
       .aboutTitle {
         display: block;
         font-size: 80px;
@@ -32,20 +31,39 @@
     .top {
       width: 100%;
       height: 250px;
+      padding-top: 60px;
+      padding-left: 90px;
       border-bottom: 1px solid var(--main-white-color);
+      .smallTitle {
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+      }
+      .title {
+        font-size: 46px;
+        font-weight: 700;
+        .number {
+          font-size: 92px;
+        }
+      }
     }
     .bottom {
-      display: flex;
       width: 100%;
       height: 250px;
-      .bottomLeft {
-        width: 50%;
-        height: 100%;
-        border-right: 1px solid var(--main-white-color);
+      padding-top: 60px;
+      padding-left: 90px;
+      .title {
+        font-size: 24px;
+        line-height: 44px;
+        font-weight: 700;
+        margin-bottom: 20px;
       }
-      .bottomRight {
-        width: 50%;
-        height: 100%;
+      .bottomText {
+        display: block;
+        width: 85%;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 26px;
       }
     }
   }
