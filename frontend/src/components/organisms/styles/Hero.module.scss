@@ -48,14 +48,10 @@
   .heroBottom {
     width: 100%;
     height: 100%;
-    display: flex;
-    .leftImage {
-      width: 50%;
-      height: 100%;
-      .image {
-        width: 100%;
-        height: auto;
-      }
+    .image {
+      width: 100%;
+      object-fit: cover;
+      height: calc(100% - 490px);
     }
     .rightImage {
       width: 50%;
