@@ -7,8 +7,6 @@ import Image from "next/image";
 // scss
 import styles from "./styles/AboutHalfScreen.module.scss";
 
-// components
-
 // props
 export type AboutHalfScreenProps = {
   id: string;
@@ -31,7 +29,13 @@ const AboutHalfScreen = ({
 }: AboutHalfScreenProps) => {
   return (
     <Link className={styles.screen} href={link} key={id}>
-      <Image className={styles.image} src={img} alt="aboutHalfScreenImage" width={600} height={600} />
+      <Image
+        className={styles.image}
+        src={img}
+        alt="aboutHalfScreenImage"
+        width={600}
+        height={600}
+      />
       <div className={styles.topBox}>
         <div className={styles.topLeftBox}>
           <p className={styles.sectionTitle}>New Release</p>
@@ -42,7 +46,7 @@ const AboutHalfScreen = ({
         </div>
       </div>
       <div className={styles.bottomBox}>
-        <div className={styles.TextBox}>
+        <div className={styles.textBox}>
           <p className={styles.bottomTitle}>outline</p>
           <p className={styles.bottomText}>{outlineText}</p>
         </div>

@@ -34,6 +34,24 @@ export default function Home() {
         outlineText="samplesamplesamplesample"
         descText="sample samplesamplesamplejdasojasodfosdj"
       />
+      <AboutHalfScreen
+        id="screen1"
+        link="/"
+        img="/images/hero1.jpg"
+        date="2021.10.10"
+        newsName="Sample"
+        outlineText="samplesamplesamplesample"
+        descText="sample samplesamplesamplejdasojasodfosdj"
+      />
+      <AboutHalfScreen
+        id="screen1"
+        link="/"
+        img="/images/hero.jpeg"
+        date="2021.10.10"
+        newsName="Sample"
+        outlineText="samplesamplesamplesample"
+        descText="sample samplesamplesamplejdasojasodfosdj"
+      />
     </main>
   );
 }
