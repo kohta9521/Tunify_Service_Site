@@ -1,0 +1,68 @@
+.screen {
+  display: block;
+  width: 100vw;
+  height: 50vh;
+  .image {
+  }
+  .topBox {
+    .topLeftBox {
+      .sectionTitle {
+      }
+      .date {
+      }
+    }
+  }
+  .bottomBox {
+    .textBox {
+      .bottomTitle {
+      }
+      .bottomtext {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .screen {
+    .image {
+    }
+    .topBox {
+      .topLeftBox {
+        .sectionTitle {
+        }
+        .date {
+        }
+      }
+    }
+    .bottomBox {
+      .textBox {
+        .bottomTitle {
+        }
+        .bottomtext {
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .screen {
+    .image {
+    }
+    .topBox {
+      .topLeftBox {
+        .sectionTitle {
+        }
+        .date {
+        }
+      }
+    }
+    .bottomBox {
+      .textBox {
+        .bottomTitle {
+        }
+        .bottomtext {
+        }
+      }
+    }
+  }
+}
