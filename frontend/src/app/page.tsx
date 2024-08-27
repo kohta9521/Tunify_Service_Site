@@ -10,6 +10,7 @@ import HamburgerBtn from "@/components/atoms/HamburgerBtn";
 import Hero from "@/components/organisms/Hero";
 import About from "@/components/organisms/About";
 import AboutHalfScreen from "@/components/templates/AboutHalfScreen";
+import Service from "@/components/organisms/Service";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         outlineText="samplesamplesamplesample"
         descText="sample samplesamplesamplejdasojasodfosdj"
       />
+      <Service />
     </main>
   );
 }
