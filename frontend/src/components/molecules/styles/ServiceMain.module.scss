@@ -1,0 +1,102 @@
+.main {
+  .leftBox {
+    .serviceTitle {
+    }
+  }
+  .rightBox {
+    .rightTopBox {
+      .subTitle {
+      }
+      .desc {
+      }
+    }
+    .rightBottomBox {
+      .bottomLeftBox {
+        .smallTitle {
+        }
+        .title {
+          .number {
+          }
+        }
+      }
+      .bar {
+      }
+      .bottomRightBox {
+        .smallTitle {
+        }
+        .number {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    .leftBox {
+      .serviceTitle {
+      }
+    }
+    .rightBox {
+      .rightTopBox {
+        .subTitle {
+        }
+        .desc {
+        }
+      }
+      .rightBottomBox {
+        .bottomLeftBox {
+          .smallTitle {
+          }
+          .title {
+            .number {
+            }
+          }
+        }
+        .bar {
+        }
+        .bottomRightBox {
+          .smallTitle {
+          }
+          .number {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    .leftBox {
+      .serviceTitle {
+      }
+    }
+    .rightBox {
+      .rightTopBox {
+        .subTitle {
+        }
+        .desc {
+        }
+      }
+      .rightBottomBox {
+        .bottomLeftBox {
+          .smallTitle {
+          }
+          .title {
+            .number {
+            }
+          }
+        }
+        .bar {
+        }
+        .bottomRightBox {
+          .smallTitle {
+          }
+          .number {
+          }
+        }
+      }
+    }
+  }
+}
