@@ -25,7 +25,7 @@ export default function Home() {
         </HeaderList>
       </Header>
       <Hero />
-      <About />
+      {/* <About />
       <AboutHalfScreen
         id="screen1"
         link="/"
@@ -53,7 +53,7 @@ export default function Home() {
         outlineText="samplesamplesamplesample"
         descText="sample samplesamplesamplejdasojasodfosdj"
       />
-      <Service />
+      <Service /> */}
     </main>
   );
 }

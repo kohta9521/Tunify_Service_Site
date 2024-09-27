@@ -2,11 +2,11 @@ import React from "react";
 
 // scss
 import styles from "./styles/Service.module.scss";
+
+// components
 import ServiceCardBox from "../templates/ServiceCardBox";
 import ServiceCard from "../molecules/ServiceCard";
 import ServiceMain from "../molecules/ServiceMain";
-
-// components
 
 const Service = () => {
   return (
