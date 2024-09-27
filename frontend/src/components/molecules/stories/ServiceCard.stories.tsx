@@ -77,6 +77,6 @@ export const Default: ServiceCardStory = {
       "インナーブランディング",
     ],
     desc: "長期的な信頼関係を築ける組織とともに成長することをビジョンとし、クライアントのビジネス活動をクリエイティブ面で包括的にサポートします。社内にあらゆる専門チームがあり、一気通貫で高品質なクリエイティブを生み出します。",
-    img: "https://via.placeholder.com/300",
+    img: "/images/hero1.jpg",
   },
 };

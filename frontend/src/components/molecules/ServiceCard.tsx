@@ -7,6 +7,9 @@ import Image from "next/image";
 // scss
 import styles from "./styles/ServiceCard.module.scss";
 
+// react icons
+import { MdKeyboardArrowRight } from "react-icons/md";
+
 // components
 
 // props
@@ -39,7 +42,11 @@ export const ServiceCard = ({
           <h2 className={styles.jaTitle}>{jaTitle}</h2>
           <h3 className={styles.enTitle}>{enTitle}</h3>
         </div>
-        <div className={styles.topRight}></div>
+        <div className={styles.topRight}>
+          <Link className={styles.linkBox} href={link}>
+            <MdKeyboardArrowRight className={styles.icon} />
+          </Link>
+        </div>
       </div>
       <div className={styles.bottom}>
         <div className={styles.bottomLeft}>
