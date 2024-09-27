@@ -1,9 +1,12 @@
 // components
+import Header from "@/components/organisms/Header";
 
 export default function Home() {
   return (
     <main>
-      <h1>hello world</h1>
+      <Header id="topPageHeader">
+        <p>sample code</p>
+      </Header>
     </main>
   );
 }
