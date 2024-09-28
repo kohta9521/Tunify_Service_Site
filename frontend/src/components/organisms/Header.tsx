@@ -15,12 +15,10 @@ export type HeaderProps = {
 const Header = ({ id, children }: HeaderProps) => {
   return (
     <header className={styles.header}>
-      <div className={styles.container}>
-        <div className={styles.left}>
-          <Logo id="home" size="medium" color="white" />
-        </div>
-        <div className={styles.right}>{children}</div>
+      <div className={styles.left}>
+        <Logo id="home" size="medium" color="white" />
       </div>
+      <div className={styles.right}>{children}</div>
     </header>
   );
 };
