@@ -1,0 +1,42 @@
+.header {
+  width: 100vw;
+  height: 50px;
+  border-bottom: 0.1px solid white;
+  display: flex;
+  justify-content: space-between;
+  .left {
+    width: 50%;
+    height: 50px;
+    padding-left: 40px;
+  }
+  .right {
+    width: auto;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    width: 100vw;
+    height: 50px;
+    .container {
+      .left {
+      }
+      .right {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100vw;
+    height: 50px;
+    .container {
+      .left {
+      }
+      .right {
+      }
+    }
+  }
+}
